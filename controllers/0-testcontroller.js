@@ -41,11 +41,11 @@ router.post('/two', function (req, res) {
 
     TestData
     .create({
-      nameOfCharacter:"Quiet",
-      nationality:"Unknown",
-      birth: "Unknown",
-      death: "Unknown",
-      favoriteWeapon: "Wicked Butterfly Sniper",
+      nameOfCharacter:"The Boss",
+      nationality:"American",
+      birth: "1922",
+      death: "9/2/1964, Tselinoyarsk, USSR",
+      favoriteWeapon: "The Patriot",
     }).then(dataFromDatabase => {
         res.send("Test two was success.. For now..")
     })
